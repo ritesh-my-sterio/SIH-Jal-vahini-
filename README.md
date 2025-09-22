@@ -1,2 +1,2 @@
-# SIH-Jal-vanihi-
+# SIH-Jal-vahini-
 SIH 2025
