@@ -9,8 +9,7 @@ interface LanguageSwitcherProps {
 const languages = [
   { code: 'en', label: 'English' },
   { code: 'hi', label: 'Hindi' },
-  { code: 'as', label: 'Assamese' },
-  { code: 'mi', label: 'Mizo' },
+
 ];
 
 export default function LanguageSwitcher({ selected, onChange }: LanguageSwitcherProps) {
@@ -30,16 +29,16 @@ export default function LanguageSwitcher({ selected, onChange }: LanguageSwitche
 }
 
 const styles = StyleSheet.create({
-  container: { flexDirection: 'row', justifyContent: 'center', marginVertical: 8 },
+  container: { flexDirection: 'row', justifyContent: 'center', marginVertical: 8,gap:50 },
   button: {
     marginHorizontal: 8,
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: '#007aff',
+    borderColor: '#003366',
   },
-  selected: { backgroundColor: '#007aff' },
-  text: { color: '#007aff' },
+  selected: { backgroundColor: '#003366' },
+  text: { color: '#003366' },
   selectedText: { color: '#fff', fontWeight: 'bold' },
 });

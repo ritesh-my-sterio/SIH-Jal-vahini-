@@ -12,7 +12,7 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack screenOptions={{ headerShown: false }}>
         {/* Login should be first */}
-        <Stack.Screen name="login" />
+        <Stack.Screen name="App" />
 
         {/* Tabs (your main app after user login) */}
         <Stack.Screen name="(tabs)" />
